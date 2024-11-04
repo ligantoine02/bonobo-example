@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import { Card, Heading } from "bonoboui-qwik";
+import { Avatar, Card, Heading } from "bonoboui-qwik";
 
 export default component$(() => {
 	return (
@@ -12,8 +12,12 @@ export default component$(() => {
 				Happy coding.
 			</div>
 
-			<Card horizontal>
+			<Card>
 				<Heading>Trying BonoboUI, my first npm package</Heading>
+				<Avatar
+					imgSrc="https://unsplash.com/photos/a-woman-holding-a-sparkler-in-her-hand-zz-bfk-QVOY"
+					imgAlt="Woman holding a sparkle"
+				/>
 			</Card>
 		</>
 	);
