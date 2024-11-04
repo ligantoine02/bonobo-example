@@ -15,8 +15,8 @@ export default component$(() => {
 			<Card>
 				<Heading>Trying BonoboUI, my first npm package</Heading>
 				<Avatar
-					imgSrc="https://unsplash.com/photos/a-woman-holding-a-sparkler-in-her-hand-zz-bfk-QVOY"
-					imgAlt="Woman holding a sparkle"
+					imgSrc="https://api.dicebear.com/9.x/adventurer-neutral/svg?radius=50&seed=Anthony"
+					imgAlt="@ligantoine02"
 				/>
 			</Card>
 		</>
